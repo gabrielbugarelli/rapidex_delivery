@@ -6,7 +6,7 @@ justify-content:center;
 align-items:center;
 width:60px;
 height:60px;
-background-color:black;
+background-color:${props => props.active ? '#0B4B0B' : 'transparent'};
 border-radius:10px;
 margin-bottom:10px;
 `
