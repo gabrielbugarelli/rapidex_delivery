@@ -13,3 +13,6 @@ export const CategoryArea = styled.div`
 export const CategoryList = styled.div`
   display:flex;
 `
+export const ProductArea = styled.div``
+
+export const ProductList = styled.div``
