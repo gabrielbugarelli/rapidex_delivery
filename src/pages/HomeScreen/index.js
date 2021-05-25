@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory } from "react-router-dom";
+import ReactTooltip from 'react-tooltip'
 import {
     Container,
     CategoryArea,
@@ -27,6 +28,8 @@ export default () => {
             if (cat.error == '') {
                 setCategories(cat.result)
             }
+
+            ReactTooltip.rebuild()
         }
 
         getCategories()
@@ -45,7 +48,7 @@ export default () => {
                     <CategoryList>
                         <CategoryItem data={{
                             id: 0,
-                            title: 'Todas as categorias',
+                            name: 'Todas as categorias',
                             image: foodRestaurant
                         }}
                             activeCategory={activeCategory}

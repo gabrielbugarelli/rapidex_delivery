@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route, Router } from "react-router-dom"
 import { useSelector } from 'react-redux'
+import ReactTooltip from 'react-tooltip'
 import store from './assets/store.png'
 import order from './assets/order.png'
 import profile from './assets/profile.png'
@@ -20,9 +21,9 @@ export default () => {
         <BrowserRouter>
             <Container>
                 <Menu>
-                    <MenuItem icon={store} link="/" />
-                    <MenuItem icon={order} link="/order" />
-                    <MenuItem icon={profile} link="/profile" />
+                    <MenuItem title="Loja" icon={store} link="/" />
+                    <MenuItem title="Pedidos" icon={order} link="/order" />
+                    <MenuItem title="Perfil" icon={profile} link="/profile" />
                 </Menu>
                 <PageBody>
                     <Switch>
@@ -44,6 +45,8 @@ export default () => {
                     </Switch>
                 </PageBody>
                 <Cart />
+                <ReactTooltip id="tip-bottom" place="bottom" effect="solid" />
+                <ReactTooltip id="tip-right" place="right" effect="solid" />
             </Container>
         </BrowserRouter>
     );

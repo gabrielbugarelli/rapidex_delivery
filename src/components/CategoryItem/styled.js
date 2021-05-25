@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width:80px;
-  height:80px;
+  width:70px;
+  height:70px;
   background-color:${props => props.active == props.id ? 'white' : "#AAE09A"};
   display:flex;
   justify-content:center;
@@ -15,6 +15,6 @@ export const Container = styled.div`
 `
 
 export const CategoryImage = styled.img`
-  width:55px;
-  height:55px;
+  width:40px;
+  height:40px;
 `
