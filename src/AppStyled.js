@@ -19,4 +19,5 @@ display:flex;
 background-color:#EEEEEE;
 background-image:url(${background});
 flex:1;
+overflow-y: auto;
 `

@@ -9,6 +9,7 @@ export const Container = styled.div`
   align-items:center;
   border-radius:20px;
   margin-right:1vw;
+  margin-top:1.2vh;
   cursor:pointer;
   transition: all ease .3s;
 `
