@@ -11,13 +11,14 @@ import {
     ProductPaginationItem
 } from './styled';
 
-import api from '../../api'
+import api from 'api'
 
-import foodRestaurant from '../../assets/food-and-restaurant.png'
+import foodRestaurant from 'assets/food-and-restaurant.png'
 
-import Header from '../../components/Header'
-import CategoryItem from '../../components/CategoryItem'
-import ProductItem from '../../components/ProductItem'
+import Header from 'components/Header'
+import CategoryItem from 'components/CategoryItem'
+import ProductItem from 'components/ProductItem'
+import Modal from 'components/Modal'
 
 let searchTimer = null
 
@@ -28,6 +29,8 @@ export default () => {
     const [categories, setCategories] = useState([])
     const [products, setProducts] = useState([])
     const [totalPages, setTotalPages] = useState(0)
+
+    const [modalStatus, setModalStatus] = useState(true)
 
     const [activeCategory, setActiveCategory] = useState(0)
     const [activePage, setActivePage] = useState(1)
@@ -123,6 +126,10 @@ export default () => {
                     ))}
                 </ProductPaginationArea>
             }
+
+            <Modal status={modalStatus} setStatus={setModalStatus}>
+                Conteúdo do Modal
+            </Modal>
         </Container>
     );
 }

@@ -8,6 +8,7 @@ export const Container = styled.div`
   display:flex;
   justify-content:space-between;
   align-items:center;
+  box-shadow:0px 3px 6px rgba(0,0,0,0.16);
 `
 export const Logo = styled.img`
   width:auto;
