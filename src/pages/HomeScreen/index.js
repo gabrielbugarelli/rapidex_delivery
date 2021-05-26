@@ -30,12 +30,12 @@ export default () => {
     const [totalPages, setTotalPages] = useState(0)
 
     const [activeCategory, setActiveCategory] = useState(0)
-    const [activePage, setActivePage] = useState(0)
+    const [activePage, setActivePage] = useState(1)
     const [activeSearch, setActiveSearch] = useState('')
 
     //carrega todos os produtos
     const getProducts = async () => {
-        const products = await api.getProducts()
+        const products = await api.getProducts(activeCategory, activePage, activeSearch)
         if (products.error == '') {
             setProducts(products.result.data)
             setTotalPages(products.result.pages)
