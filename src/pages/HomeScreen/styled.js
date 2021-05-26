@@ -13,6 +13,12 @@ export const CategoryArea = styled.div`
 export const CategoryList = styled.div`
   display:flex;
 `
-export const ProductArea = styled.div``
+export const ProductArea = styled.div`
+  margin-top:3.5vh;
+`
 
-export const ProductList = styled.div``
+export const ProductList = styled.div`
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap:1.3vw;
+`
