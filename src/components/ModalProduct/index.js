@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import { useDispatch } from 'react-redux'
+
 //imagens
 import add from '../../assets/add.svg'
 import cancel from '../../assets/cancel.svg'
@@ -27,6 +29,8 @@ import {
 
 export default ({ data, setStatus }) => {
 
+  const dispatch = useDispatch()
+
   const [qt, setQt] = useState(1)
 
   //limpa o modal quando o usuário cancela
@@ -46,6 +50,15 @@ export default ({ data, setStatus }) => {
 
   const handleCancelButton = () => {
     setStatus(false);
+  }
+
+  const handleAddToCart = () => {
+    dispatch({
+      type: 'ADD_PRODUCT',
+      payload: { data, qt }
+    })
+
+    setStatus(false)
   }
 
   return (
@@ -79,7 +92,7 @@ export default ({ data, setStatus }) => {
           <ButtonIcon src={cancel} /> Cancelar
         </ProductButton>
 
-        <ProductButton>
+        <ProductButton onClick={handleAddToCart}>
           <ButtonIcon src={add} />  Adicionar
         </ProductButton>
       </ProductButtons>
