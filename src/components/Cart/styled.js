@@ -24,8 +24,13 @@ export const CartIcon = styled.img`
 `
 
 export const CartText = styled.div`
+  display:flex;
+  flex:1;
   color:white;
-  font-size:1.5vw;
+  font-size:1.4vw;
 `
 
-export const CartBody = styled.div``
+export const CartBody = styled.div`
+  display:${props => props.show ? 'block' : 'none'}
+`
+
