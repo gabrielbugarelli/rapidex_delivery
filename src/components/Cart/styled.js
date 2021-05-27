@@ -8,9 +8,8 @@ export const CartArea = styled.div`
   bottom:0;
   right:30px;
 `
-
 export const CartHeader = styled.div`
-  width:20vw;
+  width:30vw;
   height:50px;
   display:flex; 
   align-items:center;
@@ -22,14 +21,12 @@ export const CartIcon = styled.img`
   margin-left:0.8vw;
   margin-right:0.5vw;
 `
-
 export const CartText = styled.div`
   display:flex;
   flex:1;
   color:white;
   font-size:1.4vw;
 `
-
 export const CartBody = styled.div`
   display:${props => props.show ? 'block' : 'none'};
   color:white;
@@ -55,4 +52,18 @@ export const ProductName = styled.div`
 export const ProductPrice = styled.div`
   font-size:1vw;
 `
-export const ProductQuantityArea = styled.div``
+export const ProductQuantityArea = styled.div`
+  display:flex;
+  align-items:center;
+`
+export const ProductQtIcon = styled.img`
+  width:1.3vw;
+  height:auto;
+  cursor:pointer;
+`
+export const ProductQtText = styled.div`
+  font-size:1vw;
+  font-weight:bold;
+  margin:0px 5px;
+
+`
