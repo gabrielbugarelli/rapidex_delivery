@@ -1,68 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Seja Muito bem vindo ao projeto Rapidex Delivery 😀
+O objetivo para este projeto foi desenvolver uma solução para aos problemas que identifiquei nos aplicativos de Delivery, como Ifood, 99 Food e Uber Eats. 
 
-## Available Scripts
+## Persona do projeto:
+Estamos em um cenário onde para que o microempreendedor individual que atua no segmento alimentício continue no mercado, é de extrema necessidade que o seu negócio esteja na internet. Para o seu José, que depende da sua barraca de cachorro quente para sobreviver, precisa pagar taxas altíssimas à aplicativos de comida para que a sua barraca esteja cadastrada no sistema. Contudo, o seu José é uma pessoa simples, que possui um negócio simples onde a sua necessidade é apenas uma vitrine para exibir o seu cardápio e registrar os pedidos dos seus clientes de maneira automatizada.
 
-In the project directory, you can run:
+## Quais os problemas o Rapidex Delivery visa resolver?
+As taxas de serviços cobradas por Uber Eats, 99Food e Ifood são altíssimas, causando impactos significativos no negócio do Microempreendedor individual.
+
+Serviços de suporte horríveis prestados pelo Uber Eats e 99Food onde, a maior parte dos casos o consumidor desiste do suporte e não tem o seu problema resolvido. 
+
+## Valor médio das taxas cobradas por cada aplicativo de delivery
+* Uber Eats: 30% por venda 
+* 99 Food: 27% por venda
+* Ifood: 12% por venda
+
+## Proposta de solução
+O Rapidex Delivery visa ser uma solução mais acessível ao usuário final, para comerciante que necessita de uma vitrine digital para apresentar o seu cardápio e o consumidor que deseja ter um contato mais próximo do comerciante, caso necessite do suporte do mesmo.
+
+**O projeto está em fase de desenvolvimento, contudo caso queira experimentar o projeto, basta fazer um clone e seguir os seguintes passos:**
+
+### `npm install`
+Para baixar todas as depenências necessárias do projeto
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para iniciar o projeto no em localhost. <br />
+[http://localhost:3000](http://localhost:3000)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**Abraços! 🚀🚀**
