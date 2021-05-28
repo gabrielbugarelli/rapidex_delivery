@@ -17,14 +17,14 @@ Serviços de suporte horríveis prestados pelo Uber Eats e 99Food onde, a maior 
 ## Proposta de solução
 O Rapidex Delivery visa ser uma solução mais acessível ao usuário final, para comerciante que necessita de uma vitrine digital para apresentar o seu cardápio e o consumidor que deseja ter um contato mais próximo do comerciante, caso necessite do suporte do mesmo.
 
-**O projeto está em fase de desenvolvimento, contudo caso queira experimentar o projeto, basta fazer um clone e seguir os seguintes passos:**
+**O projeto está em fase de desenvolvimento, contudo, caso queira experimentar o projeto, basta fazer um clone e seguir os seguintes passos:**
 
 ### `npm install`
 Para baixar todas as depenências necessárias do projeto
 
 ### `npm start`
 
-Para iniciar o projeto no em localhost. <br />
+Para iniciar o projeto em localhost. <br />
 [http://localhost:3000](http://localhost:3000)
 
 **Abraços! 🚀🚀**
